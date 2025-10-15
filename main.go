@@ -14,7 +14,11 @@ func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "<h1>Site Web en Go</h1><p>Page d'accueil</p>")
 	})
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 7b37711 (Initialize feature-url)
 	http.HandleFunc("/url", URLHandler)
 
 	fmt.Println("Serveur démarré sur http://localhost:8080")
