@@ -25,3 +25,10 @@ func main() {
 func ColorHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "<h1>Colors</h1><style>*{background-color: #006400;}</style>")
 }
+
+CECI EST UNE MODIF D UN COLLEGUE
+HELLO WORLD
+HELLO WORLD
+HELLO WORLD
+HELLO WORLD
+HELLO WORLD
