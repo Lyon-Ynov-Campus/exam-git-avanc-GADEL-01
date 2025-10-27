@@ -15,3 +15,5 @@ go run main.go
 ```
 
 Le serveur sera accessible sur http://localhost:8080
+
+git revert crée un commit d'annulation alors que git reset supprime le commit
